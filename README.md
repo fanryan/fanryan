@@ -2,15 +2,15 @@
 
 I'm a Business Analytics undergraduate at NUS School of Computing. I mostly work on backend and data infrastructure projects in Java, Go, Python, and SQL.
 
-Recently, I built:
+Recently, I built two backend systems:
 
 ## [PayCore](https://github.com/fanryan/paycore)
 
-A Go payment gateway and settlement engine with idempotency keys, optimistic concurrency control, Kafka transactional outbox, PostgreSQL, Redis, Prometheus metrics, and k6 baseline performance testing.
+Go payment gateway and settlement engine focused on idempotency, optimistic concurrency control, Kafka outbox events, PostgreSQL, Redis, and Prometheus metrics.
 
 ## [LedgerFlow](https://github.com/fanryan/ledgerflow)
 
-A Spring Boot transaction ledger that consumes PayCore Kafka events for double-entry postings, with idempotency replay, optimistic-lock retries, and 58 Testcontainers integration tests against PostgreSQL and Kafka.
+Spring Boot transaction ledger consuming PayCore Kafka events for double-entry postings, with idempotency replay, optimistic-lock retries, and Testcontainers integration tests.
 
 ## Tech
 
