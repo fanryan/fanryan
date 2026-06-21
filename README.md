@@ -1,16 +1,20 @@
-## Hi there 👋
+# Hi, I'm Ryan 👋
 
-<!--
-**fanryan/fanryan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a Business Analytics undergraduate at NUS School of Computing. I mostly work on backend and data infrastructure projects in Java, Go, Python, and SQL.
 
-Here are some ideas to get you started:
+Recently, I built:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## [PayCore](https://github.com/fanryan/paycore)
+
+A Go payment gateway and settlement engine with idempotency keys, optimistic concurrency control, Kafka transactional outbox, PostgreSQL, Redis, Prometheus metrics, and k6 baseline performance testing.
+
+## [LedgerFlow](https://github.com/fanryan/ledgerflow)
+
+A Spring Boot transaction ledger that consumes PayCore Kafka events for double-entry postings, with idempotency replay, optimistic-lock retries, and 58 Testcontainers integration tests against PostgreSQL and Kafka.
+
+## Tech
+
+**Languages:** Java, Go, Python, SQL  
+**Backend:** Spring Boot, FastAPI, REST APIs, Microservices  
+**Data & Infra:** PostgreSQL, Kafka, Redis, Airflow, Snowflake, dbt  
+**Testing & DevOps:** Docker, GitHub Actions, AWS, Testcontainers, JUnit, pytest, k6, Prometheus
