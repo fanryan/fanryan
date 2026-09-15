@@ -15,6 +15,6 @@ Spring Boot transaction ledger consuming PayCore Kafka events for double-entry p
 ## Tech
 
 **Languages:** Java, Go, Python, SQL  
-**Backend:** Spring Boot, REST APIs, PostgreSQL, Redis, Kafka, Microservices, JWT  
-**Data:** Airflow, Snowflake, dbt  
-**Testing & DevOps:** Docker, AWS, GitHub Actions, Testcontainers, JUnit, pytest, k6, Prometheus
+**Backend & Data:** Spring Boot, PostgreSQL, Redis, Kafka, Airflow, Snowflake, dbt
+**AI & Agents:** FastMCP, DSPy, ChromaDB, Pydantic
+**Infrastructure & Testing:** Docker, AWS, GitHub Actions, Testcontainers, JUnit, pytest, Prometheus
