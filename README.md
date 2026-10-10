@@ -19,4 +19,4 @@ I've worked on data pipeline orchestration at Secretlab and Python-based retriev
 
 Outside of tech, I enjoy floorball, bouldering, travelling and getting outdoors.
 
-[LinkedIn](https://linkedin.com/in/fanryan) · [Email](mailto:fanryan03@gmail.com)
+[Personal Website](https://fanryan.vercel.app/) · [LinkedIn](https://linkedin.com/in/fanryan) · [Email](mailto:fanryan03@gmail.com)
